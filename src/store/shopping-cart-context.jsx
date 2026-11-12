@@ -1,4 +1,8 @@
 import { createContext } from "react";
 
+export const CardContext = createContext({ 
+    items: [], 
+    addItemToCart: () => { } ,
+    updateItemQuality: () => { },
 
-export const CardContext = createContext({ items: [] });
+});
